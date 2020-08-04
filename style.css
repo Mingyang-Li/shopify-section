@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 6%;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    border: .1px solid #000;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.text{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    font-size: 25px;
+}
+
+.row1{
+    background-color: rgb(207, 207, 207);
+}
